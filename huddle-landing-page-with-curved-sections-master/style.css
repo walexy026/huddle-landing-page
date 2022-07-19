@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav{
-    padding: 2em;
+    padding: 3em;
     display: flex;
     justify-content: space-between;
 }
@@ -56,6 +56,12 @@ section button{
     display: flex;
     justify-content: space-between;
 }
+@media only screen and (max-width:450px){
+    .stats{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .communityFormed img{
     width: 2em;
     height: auto;
@@ -94,11 +100,17 @@ section button{
     justify-content: space-between;
     background-image: url(./images/bg-section-top-desktop-1.svg);
     background-repeat: no-repeat;
-    /* background-position: cover; */
+    /* background-position: center; */
     background-size: cover;
 }
+/* .grow{ */
+    /* width: 50%; */
+    /* padding-left: 12em; */
+    /* padding-top: 10em; */
+    
+/* } */
 .together img{
-    width: 50px;
+    /* width: 50%; */
     height: auto;
 
 }
