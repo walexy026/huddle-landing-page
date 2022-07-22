@@ -72,6 +72,15 @@ section button {
   section p{
     margin: auto 9%;
   }
+  .growTogether{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .flowingConversation{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
 }
 .communityFormed img {
   width: 4vh;
@@ -109,20 +118,36 @@ section button {
 }
 
 .growTogether {
+    padding-top: 5em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-image: url(./images/bg-section-top-desktop-1.svg);
   background-repeat: no-repeat;
-  /* background-position: center; */
   background-size: cover;
 }
-/* .grow{ */
-/* width: 50%; */
+.grow {
+    text-align: center;
+/* width: 50px;  */
 /* padding-left: 12em; */
-/* padding-top: 10em; */
 
-/* } */
+}
 .together img {
-  /* width: 50%; */
+  width: 50%;
   height: auto;
+}
+.flowingConversation{
+    padding-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    /* background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.flowingConversation div img:nth-child(1){
+    width: 50%;
+    height: auto;
+}
+
+.flowingConversation div:nth-child(2){
+    text-align: center;
 }
