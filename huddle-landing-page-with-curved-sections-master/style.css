@@ -87,6 +87,13 @@ section button {
     flex-direction: column-reverse;
     gap: 2em;
   }
+  footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: stretch;
+    color: #fff;
+  }
 }
 .communityFormed img {
   width: 4vh;
@@ -180,4 +187,25 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 0 2em;
+  color: #fff;
+}
+footer div img{
+  display: inline;
+
+}
+.address{
+  width: 50%;
+ 
+}
+.address p{
+  font-size: 13px;
+}
+.newsletter{
+  width: 50%;
+}
+.newsletter h2{
+  font-weight: 700;
+}
+.newsletter p{
+  font-size: 13px;
 }
