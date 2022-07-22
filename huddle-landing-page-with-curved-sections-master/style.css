@@ -63,6 +63,7 @@ section button {
   .stats {
     display: flex;
     flex-direction: column;
+    gap: 3em;
   }
   section h1 {
     margin: auto 11%;
@@ -73,36 +74,38 @@ section button {
   }
 }
 .communityFormed img {
-  width: 2em;
+  width: 4vh;
   height: auto;
-  display: block;
+  display: initial;
 }
 .communityFormed h2 {
-  font-size: 10vh;
+  font-size: 7vh;
   font-weight: 900;
   padding: 0 0;
   font-family: "Poppins", sans-serif;
 }
-.communityFormed span {
-  font-size: medium;
+.communityFormed div:nth-child(3) {
+  font-size: 12px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
+  color: #525050;
 }
 .messages img {
-  width: 2em;
+  width: 4vh;
   height: auto;
-  display: block;
+  display: initial;
 }
 .messages h2 {
-  font-size: 10vh;
-  font-weight: 900;
+  font-size: 7vh;
+  font-weight: 800;
   padding: 0 0;
   font-family: "Poppins", sans-serif;
 }
-.messages span {
-  font-size: medium;
-  font-weight: 400;
+.messages div:nth-child(3) {
+  font-size: 12px;
+  font-weight: 500;
   font-family: "Open Sans", sans-serif;
+  color: #525050;
 }
 
 .growTogether {
