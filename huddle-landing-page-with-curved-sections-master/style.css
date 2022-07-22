@@ -46,6 +46,7 @@ section button {
   padding: 1em;
   cursor: grab;
   margin-bottom: 2em;
+  box-shadow: 0.2px 0.5px 3px 3px rgb(197, 194, 194);
 }
 .community {
   display: grid;
@@ -79,6 +80,11 @@ section button {
   .flowingConversation{
     display: flex;
     flex-direction: column;
+    gap: 2em;
+  }
+  .YourUsers{
+    display: flex;
+    flex-direction: column-reverse;
     gap: 2em;
   }
 }
@@ -150,4 +156,28 @@ section button {
 
 .flowingConversation div:nth-child(2){
     text-align: center;
+}
+ .YourUsers{
+    display: flex;
+} 
+.YourUsers div:nth-child(1){
+    text-align: center;
+}
+
+.YourUsers div img:nth-child(1){
+    width: 50%;
+    height: auto;
+}
+.ready{
+    padding-top: 2em;
+    text-align: center;
+}
+.ready h2{
+    padding-bottom: 2em;
+}
+footer{
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
 }
